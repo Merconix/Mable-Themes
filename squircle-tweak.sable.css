@@ -1,0 +1,25 @@
+/*
+@sable-tweak
+id: squircle-avatars
+name: Squircle avatars
+description: Clips avatars to be rounder.
+author: Merc
+tags: avatar
+*/
+
+body.sable-remote-theme img[class*='UserAvatar'],
+body.sable-remote-theme span[class*='UserAvatar'] {
+  border-radius: 8 !important;
+  overflow: hidden;
+}
+
+body.sable-remote-theme button[class*='UserHeroAvatar'],
+body.sable-remote-theme div[class*='UserHeroAvatar__'] {
+  border-radius: 8 !important;
+  overflow: hidden;
+}
+
+body.sable-remote-theme div[class*='UserAvatarContainer'] {
+  border-radius: 8 !important;
+  overflow: visible !important; 
+}
