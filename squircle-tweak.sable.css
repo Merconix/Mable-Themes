@@ -9,17 +9,17 @@ tags: avatar
 
 body.sable-remote-theme img[class*='UserAvatar'],
 body.sable-remote-theme span[class*='UserAvatar'] {
-  border-radius: 8 !important;
+  border-radius: 12 !important;
   overflow: hidden;
 }
 
 body.sable-remote-theme button[class*='UserHeroAvatar'],
 body.sable-remote-theme div[class*='UserHeroAvatar__'] {
-  border-radius: 8 !important;
+  border-radius: 12 !important;
   overflow: hidden;
 }
 
 body.sable-remote-theme div[class*='UserAvatarContainer'] {
-  border-radius: 8 !important;
+  border-radius: 12 !important;
   overflow: visible !important; 
 }
